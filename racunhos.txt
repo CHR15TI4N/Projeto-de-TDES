@@ -1,0 +1,92 @@
+//   const styles = StyleSheet.create({
+//     header: {
+//       width: '100%',
+//       height: 120,
+//       padding: 10,
+//       backgroundColor: '#000',
+//       alignItems: 'center',
+//       justifyContent: 'center',
+//       paddingTop: 30
+//     },
+//     textHeader: {
+//       color: '#fff',
+//       fontWeight: 'bold',
+//       fontSize: 20,
+//     },
+//     body: {
+//       flex: 1,
+//       alignItems: 'center',
+//       justifyContent: 'center',
+//       backgroundColor: '#546'
+//     }
+
+//   })
+
+//   const [mostraTexto, setMostraTexto] = useState()
+
+//   const onPressMessage = () => {
+//     setMostraTexto(!mostraTexto)
+//   }
+
+//   return (
+//     <View style={{flex: 1}}>
+//       <StatusBar backgroundColor={"#000"} barStyle={"light-content"} translucent={false}/>
+//       <View style={styles.header}>
+//         <Text style={styles.textHeader}>Meu header</Text>
+//       </View>
+//       <View style={styles.body}>
+//         {
+//           mostraTexto ? (<Text style={{color: "#fff"}}>ABHBCEUHBCJABCUAHBUAHBCUWABCHADAJNDWINCIJENIUBHJIAUBHNVKALLCN</Text>) : <></>
+//         }
+//         <Button title='Visivel ou Oculto' onPress={onPressMessage}/>
+//       </View>
+//     </View>
+//   );
+
+// const styles = StyleSheet.create({
+//   container:{
+//     paddingTop: 20,
+//     alignItems: 'center',
+//     flex:1,
+//     justifyContent: 'center',
+//     backgroundColor:'#777'
+//   },
+//   button:{
+//     marginTop:10,
+//     borderRadius: 8,
+//     borderColor:"#352",
+//     borderWidth:5,
+//     backgroundColor:"#fff",
+//   },
+//   numero:{
+//     fontSize:50,
+//     color: '#fff' 
+//   },
+// })
+
+// const [contador, setContador] = useState(0)
+
+// const onPressSum = () =>{
+//   setContador(contador + 1)
+// }
+// const onPressSub = () =>{
+//   setContador(contador - 1)
+// }
+// const onPressZero = () =>{
+//   setContador(0)
+// }
+// return (
+
+//   <View style={styles.container}>
+//     <Text style={styles.numero}>{contador}</Text>
+//     <View style={styles.button}>
+//       <Button title={'Somar um'} onPress={onPressSum}/>
+//     </View>
+//     <View style={styles.button}>
+//       <Button title={'Subtrair um'} onPress={onPressSub}/>
+//     </View>
+//     <View style={styles.button}>
+//       <Button title={'Zerar'} onPress={onPressZero}/>
+//     </View>
+//   </View>
+// );
