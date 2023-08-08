@@ -34,7 +34,10 @@ const Card = ({title, content, imageUrl}) => {
         <View style={styles.body}>
             <Text style={styles.titleText}>{title}</Text>
             <Text style={styles.menuText}>{content}</Text>
-            <Image style={styles.image} source={imageUrl}/>
+            <Image 
+                style={styles.image} 
+                source={imageUrl}
+            />
         </View>
     );
 }
